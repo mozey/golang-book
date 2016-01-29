@@ -1,4 +1,6 @@
-### Types vs tokens
+## Types
+
+### Types vs instance / token / members
 
 Suppose you have a dog named Max.
 
