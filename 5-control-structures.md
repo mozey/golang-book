@@ -34,7 +34,7 @@ What does the following program print:
       fmt.Println("Small")
     }
     
-    => Small
+    // ANSWER: Small
     
     
 Write a program that prints out all the numbers 
