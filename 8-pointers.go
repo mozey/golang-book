@@ -22,10 +22,6 @@ func square(x *float64) {
 	*x = *x * *x
 }
 
-func swap(x *float64) {
-	*x = *x * *x
-}
-
 func main() {
 	x := 5
 	zeroByValue(x)

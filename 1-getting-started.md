@@ -5,7 +5,7 @@ Installation instructions
     
 go version
 
-    go version go1.5.2 darwin/amd64
+    go version go1.6 darwin/amd64
     
     
 go help

@@ -61,17 +61,16 @@ and returns true if it was even or false if it was odd.
 For example half(1) should return (0, false) 
 and half(2) should return (1, true).
 
-    TODO 7-functions.go
-
 Write a function with one variadic parameter 
 that finds the greatest number in a list of numbers.
 
 Using makeEvenGenerator as an example, 
 write a makeOddGenerator function that generates odd numbers.
 
-    7-functions.go
-
 The Fibonacci sequence is defined as: fib(0) = 0, fib(1) = 1, 
 fib(n) = fib(n-1) + fib(n-2). Write a recursive function which can find fib(n).
 
 What are defer, panic and recover? How do you recover from a run-time panic?
+
+    7-functions.go
+    

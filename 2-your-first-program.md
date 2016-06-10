@@ -6,7 +6,7 @@ What is whitespace?
     
     Go (mostly) ignores whitespace
     
-GOTCHA Some character are not whitespace, 
+Some characters are not whitespace, 
 [and your text editor might not display them]
 (http://stackoverflow.com/questions/2526881/text-editor-capable-of-viewing-invisibles)
 
@@ -32,7 +32,7 @@ If we wanted to use the Exit function from the os package what would we need to 
     import "os"
 
 Modify the program we wrote so that instead of printing Hello World it prints 
-Hello, my name is followed by your name.
+"Hello, my name is" followed by your name.
 
     fmt.Println("Hello, my name is " + "Chris")
     

@@ -9,7 +9,7 @@ func main() {
 	//	fmt.Println(i)
 	//	i = i + 1
 	//}
-	for i := 1; i <= 10; i++ { // Special operator ++ increments a variable
+	for i := 1; i <= 4; i++ { // Special operator ++ increments a variable
 		s := fmt.Sprintf("%v", i)
 
 		if i % 2 == 0 {
@@ -27,6 +27,11 @@ func main() {
 		}
 
 		fmt.Println(s)
+	}
+
+	arr := [3]int{1, 2}
+	for _, value := range arr {
+		fmt.Println(value)
 	}
 
 	j := 3

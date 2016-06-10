@@ -20,7 +20,7 @@ func average(xs []float64) (r float64) {
 	return
 }
 
-// Function can return multiple values,
+// Functions can return multiple values,
 // this is often used to return an error value...
 func f1() (string, error) {
 	return "error example", nil
@@ -63,6 +63,11 @@ func first() {
 }
 func second() {
 	fmt.Println("2nd")
+}
+
+func half(x int) (int, bool) {
+	even := x % 2 == 0
+	return x/2, even
 }
 
 func main() {
@@ -121,5 +126,10 @@ func main() {
 		fmt.Println(str)
 	}()
 	panic("PANIC")
+
+	// .........................................................................
+
+	fmt.Println(half(2))
+	fmt.Println(half(1))
 }
 

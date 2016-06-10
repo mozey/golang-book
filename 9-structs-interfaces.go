@@ -131,7 +131,7 @@ func main() { // ...............................................................
 	var rx2, ry2 float64 = 10, 10
 	fmt.Println("rectangleArea", rectangleArea(rx1, ry1, rx2, ry2))
 
-	// Remember that argument are always copied in go
+	// Remember that arguments are always copied in go
 	fmt.Println("circleArea", circleArea(c))
 
 	// We have to pass a pointer to assign values

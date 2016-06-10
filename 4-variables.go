@@ -18,7 +18,7 @@ func main() {
 	// The equality operator returns a boolean
 	fmt.Println(x == y)
 
-	// The compiler will infer type is none is specified
+	// The compiler will infer type if none is specified
 	var a = "string"
 	// := is shorthand for creating a new variable with a starting value.
 	b := 123
